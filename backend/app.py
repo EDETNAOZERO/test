@@ -13,7 +13,6 @@ class Handler(BaseHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
 
-server_address = ("", port)
+server_address = ("0.0.0.0", port)
 httpd = HTTPServer(server_address, Handler)
-print("Server started on http://localhost:"+str(port))
 httpd.serve_forever()

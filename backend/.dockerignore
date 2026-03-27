@@ -1,0 +1,53 @@
+# --- Git ---
+.git
+.gitignore
+.gitattributes
+
+# Ignore all nested git repos
+**/.git
+
+# --- Docker ---
+Dockerfile
+.dockerignore
+
+# --- Logs ---
+*.log
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Archives ---
+*.tar
+*.gz
+*.zip
+
+# --- Temporary files ---
+tmp/
+temp/
+.cache/
+
+# --- Language-specific (common defaults) ---
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/

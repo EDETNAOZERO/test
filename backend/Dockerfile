@@ -8,7 +8,7 @@ COPY --chown=appuser:appgroup . .
 
 USER appuser
 
-EXPOSE 8080/tcp
+EXPOSE 8080
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s \
     CMD wget --spider -q http://127.0.0.1:8080/ || exit 1

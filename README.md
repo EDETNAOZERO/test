@@ -20,3 +20,8 @@ There are two containers: nginx proxy and backend.
 The backend is a simple python script using http.server. It's running on an unprivileged port 8080 to allow not using root. The port is listening only inside the docker bridge networking and not exposed to a host system.
 The nginx proxy is a minimal nginx container which serves the 80 port and proxies it to the backend using internal docker bridge networking. 
 When you're trying to access localhost with curl, you reach nginx which proxies your request to the backend.
+
+## List of technologies used
+* Docker
+* Python
+* Nginx

@@ -1,8 +1,8 @@
 # test
-Effective Mobile test excercise for DevOps
+Effective Mobile test excercise for DevOps ID 43407dbad1
 
 ## How to run it
-You need docker engine installed. Cd into the project's directory and run
+You need docker installed. Cd into the project's directory and run
 ```
 docker compose up -d
 ```

@@ -13,7 +13,7 @@ You can use curl from command line to test it's working:
 ```
 curl http://localhost
 ```
-You should see "Hello from Effective Mobile!"
+You should see "Hello from Effective Mobile!". You can also send a request from another machine which has access to host's ip address in case firewall on host is disabled or configured to pass incoming requests on port 80.
 
 ## How it's working
 There are two containers: nginx proxy and backend. 
